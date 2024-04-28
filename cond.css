@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+}
+nav{
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(25, 25, 12);
+    box-shadow: 5px 5px 15px black;
+}
+.name{
+    text-align: center;
+    color: white;
+}
+img{
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+.brand{
+margin: 0;
+margin-top: 5px;
+}
+.link{
+    display: block;
+   color: white; 
+   padding: 15px; 20px ;
+   text-decoration:none;
+   position: relative;
+   right:-10px;
+   font-family:cinzel;
+   transition:1.2s;
+   position: relative;
+   bottom:-15px;
+}
+.link:hover{
+    background-color: white;
+    color: black;
+}
+p{
+    display: block;
+    color: white;
+    font-family: cinzel;
+    padding: 15px 20px;   
+    margin-bottom: 15px;
+    position: absolute;
+    bottom: 0;
+    transition: 1.2s;
+    width: 100%;
+}
+p:hover{
+    background-color: white;
+    color: black;
+}
+.main{
+    margin-left: 300px;
+    text-align: center;
+}
